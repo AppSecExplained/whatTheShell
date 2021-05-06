@@ -93,8 +93,7 @@
         echo "\n";
     }
     echo "[*]\n";
-
-    echo "[*] Check for pcntl_exec() not yet implemented";
-
+    echo "[*] Check for pcntl_exec() not yet implemented\n";
+    echo "[*]\n";
     echo "[*] Finished\n</pre>";
 ?>
