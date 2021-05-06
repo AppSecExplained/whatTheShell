@@ -1,4 +1,8 @@
 <?php
+    // version 0.1
+    // https://www.twitch.tv/offsecprep
+    // this is the barebones version of the script currently in development (essentially a PoC). There is no error checking or handling, so don't cry if it breaks. 
+    // Better version coming soon
     error_reporting(E_ALL);
 
     echo "<pre>[*] Starting initial checks\n";
