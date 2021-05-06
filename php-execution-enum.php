@@ -78,7 +78,7 @@
 
     $check_popen = trim(preg_replace('/\s\s+/', ' ', $check_popen));
     if ($check_popen == "popen") {
-        echo "[*] shell_exec() execution successful, you can use the following payloads:\n";
+        echo "[*] popen() execution successful, you can use the following payloads:\n";
         $payload = 'Not yet implemented...';
         echo htmlentities("[*] " . $payload);
         echo "\n";
