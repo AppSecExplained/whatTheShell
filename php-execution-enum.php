@@ -16,8 +16,8 @@
 
     $check_shell_exec = shell_exec("echo shell_exec");
 
-    $check_popen = popen("echo popen", "r");
-    pclose($check_popen);
+    //$check_popen = popen("echo popen", "r");
+    //pclose($check_popen);
 
     $handle = popen('echo popen', 'r');
     $check_popen = fread($handle, 2096);
